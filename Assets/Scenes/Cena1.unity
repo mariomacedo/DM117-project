@@ -448,7 +448,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: e6d7ceb7308251e8fbc72cf71f76c39a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -534,7 +534,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 03c8ff12df1ffcf438904a831a329bb3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 816903057e367334b9b26429c18bfc63, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1950,11 +1950,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1454824392}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4109ccd4f55002e4a3c801d12d40034, type: 3}
+  m_Script: {fileID: 11500000, guid: b378c0140866c2a5bb260a953c0564e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1454824395}
-  powerUpText: {fileID: 0}
+  powerUpText: {fileID: 1454824395}
 --- !u!114 &1454824395
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2306,7 +2305,7 @@ GameObject:
   - component: {fileID: 1708947835}
   - component: {fileID: 1708947837}
   m_Layer: 5
-  m_Name: Text
+  m_Name: ScoreText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2385,7 +2384,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 1708947835}
-  powerUpText: {fileID: 0}
 --- !u!1 &1830027110
 GameObject:
   m_ObjectHideFlags: 0

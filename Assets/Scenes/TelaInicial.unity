@@ -325,7 +325,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Play
+  m_Text: Lets Play!
 --- !u!222 &517657736
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -403,7 +403,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Rolando Loucamente
+  m_Text: Jogo do Mario
 --- !u!222 &1002286374
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -452,7 +452,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 90a8c70354345fe42966a1bb86ce7f2e, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fe0d567b47a2fd84a8f67ad47d58e9c9, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
